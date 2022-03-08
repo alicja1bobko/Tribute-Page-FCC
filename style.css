@@ -1,0 +1,93 @@
+body{
+
+text-align: center;
+font-family:'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+#main{
+background: #eee;
+margin: 30px 10px;
+padding: 15px;
+padding-bottom: 40px;
+border-radius: 10px;
+}
+
+@media(max-width: 460px){
+#main{
+margin:0;
+}
+}
+
+#title{
+font-size: 4em;
+font-family: 'Raleway', sans-serif;
+margin-bottom: 0;
+}
+
+#img-div{
+background:white;
+padding:15px;
+}
+
+img{
+display:block;
+height:auto;
+margin: 0 auto;
+max-width: 100%;
+}
+
+
+#img-caption{
+padding: 10px;
+}
+
+#section-header{
+font-weight: 400;
+text-align: left;
+}
+
+ul{
+margin:0 auto 30px auto;
+max-width: 600px;
+line-height: 1.5em;
+}
+li{
+margin: 10px 0;
+}
+blockquote{
+margin:0 auto 0 auto;
+max-width: 600px;
+text-align: justify;
+font-style: italic;
+}
+
+#tribute-info{
+margin:0 auto 0px auto;
+max-width: 896px;
+text-align: left;
+padding-top: 0;
+}
+#section-img{
+align-items: center;
+}
+
+figure{
+text-align: center;
+}
+
+#section-caption{
+max-width: 100%;
+margin:0 0;
+padding: 10px;
+}
+
+@media (max-width:460px){
+#section-caption {
+width:auto;
+
+}
+}
+
+
+
+
+
